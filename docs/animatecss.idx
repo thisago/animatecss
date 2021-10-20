@@ -1,0 +1,4 @@
+AnimateCssAnimations	animatecss.html#AnimateCssAnimations	animatecss: AnimateCssAnimations	
+AnimateCssUtility	animatecss.html#AnimateCssUtility	animatecss: AnimateCssUtility	
+parseClass	animatecss.html#parseClass	animatecss: parseClass(x: AnimateCssAnimations or AnimateCssUtility): string	
+animatecss	animatecss.html#animatecss,varargs[string,parseClass]	animatecss: animatecss(classes: varargs[string, parseClass]): string	
