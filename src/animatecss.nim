@@ -37,7 +37,7 @@ const
 func animate(s: string): string =
   "animate__" & s
 
-func parseClass*(x: AnimateCssAnimations or AnimateCssUtility): string =
+func parseClass(x: AnimateCssAnimations or AnimateCssUtility): string =
   result = $x
 
 func animatecss*(classes: varargs[string, parseClass]): string =
